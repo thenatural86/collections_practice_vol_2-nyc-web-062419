@@ -50,6 +50,7 @@ def organize_schools(schools)
     value.each do |k, v|
       if location = nil
         location == schools
+      else 
       binding.pry
     end
   end
