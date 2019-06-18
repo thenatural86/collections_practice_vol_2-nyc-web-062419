@@ -51,7 +51,7 @@ def organize_schools(schools)
       if location == nil
         location[v] = key
       else 
-        location[v].push(key) 
+        location[v] << (key) 
       end
     end
   end
