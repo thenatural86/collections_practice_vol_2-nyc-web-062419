@@ -48,7 +48,7 @@ def organize_schools(schools)
   loaction = {}
   schools.each do |key, value|
     value.each do |k, v|
-      if location = nil
+      if location == nil
         location[v] = key
       else 
         location[v] << key 
