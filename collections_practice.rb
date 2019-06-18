@@ -52,6 +52,7 @@ def organize_schools(schools)
         location[v] == key
       else 
         location[v] << key 
+      end
     end
   end
 end 
