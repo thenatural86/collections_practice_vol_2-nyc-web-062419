@@ -51,7 +51,7 @@ def organize_schools(schools)
       if location = nil
         location[v] == schools
       else 
-        location[v] == 
+        location[v] << school
       binding.pry
     end
   end
