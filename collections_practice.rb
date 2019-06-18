@@ -52,7 +52,6 @@ def organize_schools(schools)
         location[v] == key
       else 
         location[v] << key 
-      binding.pry
     end
   end
 end 
