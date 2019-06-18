@@ -45,7 +45,7 @@ def find_cool(array)
 end
 
 def organize_schools(schools)
-  loaction = {}
+  location = {}
   schools.each do |key, value|
     value.each do |k, v|
       if location == nil
