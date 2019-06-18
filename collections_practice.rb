@@ -49,6 +49,7 @@ def organize_schools(schools)
   schools.each do |key, value|
     value.each do |k, v|
       if location = nil
+        location
       binding.pry
     end
   end
